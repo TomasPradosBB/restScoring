@@ -4,8 +4,7 @@ public class TipoVia {
     private int idTipoVia;
     private String descripcion;
 
-    public TipoVia(int idTipoVia, String descripcion) {
-        this.idTipoVia = idTipoVia;
+    public TipoVia(String descripcion) {
         this.descripcion = descripcion;
     }
 

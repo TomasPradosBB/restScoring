@@ -13,8 +13,7 @@ public class Direccion {
     private String municipio;
     private String codProvincia;
 
-    public Direccion(int idDireccion, int idTipoVia, String nombreCalle, String num, String codPostal, String municipio, String codProvincia) {
-        this.idDireccion = idDireccion;
+    public Direccion(int idTipoVia, String nombreCalle, String num, String codPostal, String municipio, String codProvincia) {
         this.idTipoVia = idTipoVia;
         this.nombreCalle = nombreCalle;
         this.num = num;

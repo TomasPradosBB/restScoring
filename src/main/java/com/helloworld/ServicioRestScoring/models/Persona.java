@@ -15,8 +15,7 @@ public class Persona {
     private int scoring;
     private Date fechaScoring;
 
-    public Persona(int idPersona, String nombre, String apellido1, int idDireccionDomicilio, int idDireccionNotificacion, String NIF, Date fechaNacimiento, String nacionalidad) {
-        this.idPersona = idPersona;
+    public Persona(String nombre, String apellido1, int idDireccionDomicilio, int idDireccionNotificacion, String NIF, Date fechaNacimiento, String nacionalidad) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.idDireccionDomicilio = idDireccionDomicilio;
